@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 100vh;
+    background: url(GettyImages.jpg)no-repeat;
+    background-size: cover;
+    background-position:center ;
+   
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+.w {
+    height: auto;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+    transform: translate(69%, -74%);
+}
+
+.w .input-bo {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-bo input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 19px;
+    color: #fff;
+    padding: 20px 24px 20px 20px;
+}
+
+.input-bo input::placeholder {
+    color: #fff;
+}
+
+.w .bt {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(05, 0, 0, .1);
+    cursor: pointer;
+    font-size: #333;
+    font-weight: 600;
+}
+
+.wrapper {
+    height: 570px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+    transform: translate(-50%, 27%);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 19px;
+    color: #fff;
+    padding: 20px 24px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+
+::-webkit-calendar-picker-indicator {
+    background-color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.bo {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align contents to right */
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 1 20px; /* Add padding for better spacing */
+    font-size: 20px;
+    padding: 0px 0 0 20px;
+}
+
+.bo input[type="file"] {
+    position: absolute;
+    right: 1px; /* Adjust position to the right */
+    width: auto; /* Adjust width of input area */
+    height: auto;
+    opacity: 0;
+    
+}
+
+.bo:after {
+    content: "Upload";
+    display: block; /* Ensure "Upload" text is displayed as a block element */
+    background-color: white;
+    color: black;
+    width: 90px;
+    height: 47px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+  
