@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 100vh;
+    background: url(GettyImages.jpg)no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height: auto;
+    width: auto;
+}
+.wrapper{
+    height: auto;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px ;
+    margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wrapper h1{
+    font-size : 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+   width: 35%;
+   height: 30px;
+   margin: 1px 0;
+   
+}
+.input-box input {
+    width:260% ;
+    height: 160%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+   border-radius: 40px;
+   font-size: 19px;
+   padding: 20px 24px 20px 20px;
+   transform: translate(6%, 30%);
+   color: #fff;
+
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.wrapper .btn{
+   
+    width: 10%;
+    height: 48px;
+    background: #fff;
+    border-radius: 40px;
+    transform: translate(880%, -36%);
+}
+.bu{
+    width: 20%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: #333;
+    font-weight: 600;
+      
+}   
+
+.styled-table {
+    height: auto;
+    width: auto;
+    border-radius: 8px 8px 6px 6px;
+    overflow: hidden;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.78em;
+    font-family: sans-serif;
+    min-width: 90px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center; 
+
+}
+.styled-table thead tr {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: #ffffff;
+}
+.styled-table th,
+.styled-table td {
+    padding: 5px 11px;
+    
+}
+.styled-table tbody tr {
+   
+    background-color: #f3f3f3;
+    color: #000000;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+}
+    
